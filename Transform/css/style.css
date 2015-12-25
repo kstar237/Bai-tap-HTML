@@ -1,0 +1,52 @@
+.wrap{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+body{
+    background-color: beige;
+}
+img{
+    float: left;
+    width: 30%;
+    margin: 5px;
+    margin-left: 20px;
+    height: 240px;
+    border: 1px solid;
+    opacity: 1;
+}
+img:hover{
+    transform: translate(0, -5px);
+    opacity: 0.5;
+    transition: opacity 0.5s linear;
+}
+@keyframes title {
+    0%  {background-color: #EF7126; color: #F9E559;}
+    25%  {background-color: #6F3662; color: #FFFFFF;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+}
+h1 {
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+    font-size: 2em;
+    font-family: cursive;
+    text-align: center;
+    animation: title 5s ease infinite;
+
+}
+.move{
+    position: relative;
+    text-transform: uppercase;
+    animation-name: mymove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: opacity 0.5s linear;
+}
+@keyframes mymove {
+    0%{left: 800px;}
+    50%{left: 500px; animation-play-state: paused; opacity: 1}
+    100%{left: 200px; opacity: 0}
+
+}
