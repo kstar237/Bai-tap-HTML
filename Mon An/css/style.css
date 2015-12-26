@@ -1,0 +1,37 @@
+#menu ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+#menu ul li{
+    display:inline;
+}
+
+#menu ul a{
+    text-decoration:none;
+    width: 199px;
+    float: left;
+    background:mediumspringgreen;
+    color:black;
+    font-weight:bold;
+    text-align:center;
+    line-height:35px;
+    border-left:1px solid #fff;
+}
+#food >li >ul{
+    float: inherit;
+}
+#food >li >ul{
+    list-style-type: none;
+    display: none;
+}
+#food >li:hover >ul{
+    display: block;
+}
+
+#wrap {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
