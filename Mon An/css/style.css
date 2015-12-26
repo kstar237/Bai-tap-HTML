@@ -3,24 +3,23 @@
     padding:0px;
     margin:0px;
 }
-
 #menu ul li{
     display:inline;
 }
-
 #menu ul a{
-    text-decoration:none;
+    text-decoration: none;
+}
+#menu ul li{
     width: 199px;
     float: left;
     background:mediumspringgreen;
     color:black;
     font-weight:bold;
-    text-align:center;
+    text-align:left;
     line-height:35px;
     border-left:1px solid #fff;
-}
-#food >li >ul{
-    float: inherit;
+    list-style-type: none
+;
 }
 #food >li >ul{
     list-style-type: none;
