@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 #menu ul{
     list-style-type:none;
     padding:0px;
@@ -10,7 +14,7 @@
     text-decoration: none;
 }
 #menu ul li{
-    width: 199px;
+    width: 142px;
     float: left;
     background:mediumspringgreen;
     color:black;
@@ -20,6 +24,10 @@
     border-left:1px solid #fff;
     list-style-type: none
 ;
+}
+#menu ul li:hover{
+    text-decoration: underline;
+    color: red;
 }
 #food >li >ul{
     list-style-type: none;
@@ -33,4 +41,7 @@
     width: 1000px;
     margin: auto;
     overflow: hidden;
+}
+body{
+    background-image: url("../img/background.gif");
 }
